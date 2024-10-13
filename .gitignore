@@ -1,0 +1,34 @@
+# Ignore build directories (for CMake)
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore CLion IDE-specific files
+.idea/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore any logs, lock files, or temporary files
+*.log
+*.lock
+
+# Ignore CMake auto-generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Ignore compiled binary files
+*.out
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+
+# Ignore temporary files or swap files from text editors
+*~
+*.swp
