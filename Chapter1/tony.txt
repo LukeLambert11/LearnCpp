@@ -1,0 +1,1 @@
+If you want to learn compiling and linking, I recommend makefile to start and trying out both gcc and clang, also add all compiler warnings and set warning to error. Using clion defaults to cmake which is easier to start with but cmake creates makefiles, so knowing how makefile works is good. Then cmake is very helpful after that anyway.
